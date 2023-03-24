@@ -7,10 +7,9 @@
 from email.message import EmailMessage as eM
 import ssl
 import smtplib
-from pwdEmailSender import key
 
-key_email = key
-emailSender = 'meghpatel9112@gmail.com'
+key_email = '' # Enter the app password key here. You can find may tutorial on youtube as well.
+emailSender = 'enteremail@gmail.com' # Enter **Your Email** here
 emailReciver = input("Enter Email: ")
 
 subject = input("Enter Subject: ")
